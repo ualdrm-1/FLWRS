@@ -1,8 +1,8 @@
 <?php
 session_start();
-$url = 'https://flwrscafeelista.quickresto.ru/platform/online/api/list?moduleName=crm.customer&className=ru.edgex.quickresto.modules.crm.customer.CrmCustomer';
-$username = 'flwrscafeelista';
-$password = 'iPpnTKkU';
+$url = 'API_URL';
+$username = 'API_LOGIN';
+$password = 'API_PASS';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
