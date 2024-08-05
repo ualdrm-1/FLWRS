@@ -1,5 +1,5 @@
 ![FLWRS_ICON](image/flwrs_icon_site.png)
-# **FLWRS - first project in web-dev**
+# **FLWRS - first project in web-dev**:cat:
 The project used the ***[QuickResto API](https://quickresto.ru/api/)***.<br>
 At the time when I started the project, I did not know how the **QuickResto API** works: the support is not particularly responsive, and the documentation is not very clear.<br>
 Therefore, the code provided here will be needed for those who will work with this API (_especially Russian developers_).<br>
