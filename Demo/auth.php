@@ -107,7 +107,7 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //$firstName = $_POST['firstName'];/*FName='$firstName' AND*/ 
     $phoneNumber = $conn->real_escape_string($_POST['phoneNumber']);
-    $sql = "SELECT * FROM persons WHERE Num='$phoneNumber'";
+    $sql = "SELECT * FROM (name of ur table in SQL) WHERE Num='$phoneNumber'";
     $result = $conn->query($sql);   
     if ($result === false) {
         echo "Ошибка выполнения запроса: " . $conn->error;
