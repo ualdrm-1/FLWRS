@@ -61,4 +61,6 @@ The meaning of the file is the same as in the past, only if it saved information
     ...
 ```
 ## site.php<br>
-The semantic load of this file is identical to the first one. There is no php code here, but there is a design.
+The semantic load of this file is identical to the first one. There is no php code here, but there is a design.<br>
+Below is the appearance of the site:<br>
+![FLWRS_ICON](image/main_a.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![FLWRS_ICON](image/drinks.png)<br><br>![FLWRS_ICON](image/about.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![FLWRS_ICON](image/pc.png)<br><br>![FLWRS_ICON](image/contact.png)
