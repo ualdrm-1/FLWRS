@@ -1,6 +1,6 @@
-![FLWRS_ICON](image/flwrs_icon_site.png)
+![FLWRS_ICON]
 # **FLWRS**:cat:
-The page is needed for user authorization - the phone number and name are entered (~~yes, the parameters are the most insecure for identification, but it is better not to identify them in the database~~). However php code present:
+The page is needed for user authorization - the phone number and name are entered. However php code present:
 ```php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //$firstName = $_POST['firstName'];/*FName='$firstName' AND*/ 
