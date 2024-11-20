@@ -1,10 +1,5 @@
 ![FLWRS_ICON](image/flwrs_icon_site.png)
-# **FLWRS - first project in web-dev**:cat:
-The project used the ***[QuickResto API](https://quickresto.ru/api/)***.<br>
-At the time when I started the project, I did not know how the **QuickResto API** works: the support is not particularly responsive, and the documentation is not very clear.<br>
-Therefore, the code provided here will be needed for those who will work with this API (_especially Russian developers_).<br>
-Next, I will try to explain the meaning of each file (~~in general, there are a little more of them in the project, but there is no sense in them to explain~~):
-## auth.php<br>
+# **FLWRS**:cat:
 The page is needed for user authorization - the phone number and name are entered (~~yes, the parameters are the most insecure for identification, but it is better not to identify them in the database~~). However php code present:
 ```php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
